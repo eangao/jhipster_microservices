@@ -1,0 +1,21 @@
+entity Speaker {
+	firstName String required,
+    lastName String required,
+    email String required,
+    twitter String required,
+    firstName String required,
+    bio String required
+}
+
+entity Session {
+	title String required,
+    description Blob required,
+    startDateTime ZonedDateTime required,
+    endDateTime ZonedDateTime required
+}
+
+relationship ManyToMany {
+	Speaker{sessions} to Sesseion{speakers}
+}
+
+
