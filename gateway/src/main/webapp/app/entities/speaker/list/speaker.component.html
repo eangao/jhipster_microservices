@@ -1,0 +1,93 @@
+<div>
+  <h2 id="page-heading" data-cy="SpeakerHeading">
+    <span>Speakers</span>
+
+    <div class="d-flex justify-content-end">
+      <button class="btn btn-info mr-2" (click)="loadAll()" [disabled]="isLoading">
+        <fa-icon icon="sync" [spin]="isLoading"></fa-icon>
+        <span>Refresh List</span>
+      </button>
+
+      <button
+        id="jh-create-entity"
+        data-cy="entityCreateButton"
+        class="btn btn-primary jh-create-entity create-speaker"
+        [routerLink]="['/speaker/new']"
+      >
+        <fa-icon icon="plus"></fa-icon>
+        <span> Create a new Speaker </span>
+      </button>
+    </div>
+  </h2>
+
+  <jhi-alert-error></jhi-alert-error>
+
+  <jhi-alert></jhi-alert>
+
+  <div class="alert alert-warning" id="no-result" *ngIf="speakers?.length === 0">
+    <span>No speakers found</span>
+  </div>
+
+  <div class="table-responsive" id="entities" *ngIf="speakers && speakers.length > 0">
+    <table class="table table-striped" aria-describedby="page-heading">
+      <thead>
+        <tr>
+          <th scope="col"><span>ID</span></th>
+          <th scope="col"><span>First Name</span></th>
+          <th scope="col"><span>Last Name</span></th>
+          <th scope="col"><span>Email</span></th>
+          <th scope="col"><span>Twitter</span></th>
+          <th scope="col"><span>Bio</span></th>
+          <th scope="col"><span>Sessions</span></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let speaker of speakers; trackBy: trackId" data-cy="entityTable">
+          <td>
+            <a [routerLink]="['/speaker', speaker.id, 'view']">{{ speaker.id }}</a>
+          </td>
+          <td>{{ speaker.firstName }}</td>
+          <td>{{ speaker.lastName }}</td>
+          <td>{{ speaker.email }}</td>
+          <td>{{ speaker.twitter }}</td>
+          <td>{{ speaker.bio }}</td>
+          <td>
+            <span *ngFor="let sessions of speaker.sessions; let last = last">
+              <a class="form-control-static" [routerLink]="['/session', sessions.id, 'view']">{{ sessions.id }}</a
+              >{{ last ? '' : ', ' }}
+            </span>
+          </td>
+          <td class="text-right">
+            <div class="btn-group">
+              <button
+                type="submit"
+                [routerLink]="['/speaker', speaker.id, 'view']"
+                class="btn btn-info btn-sm"
+                data-cy="entityDetailsButton"
+              >
+                <fa-icon icon="eye"></fa-icon>
+                <span class="d-none d-md-inline">View</span>
+              </button>
+
+              <button
+                type="submit"
+                [routerLink]="['/speaker', speaker.id, 'edit']"
+                class="btn btn-primary btn-sm"
+                data-cy="entityEditButton"
+              >
+                <fa-icon icon="pencil-alt"></fa-icon>
+                <span class="d-none d-md-inline">Edit</span>
+              </button>
+
+              <button type="submit" (click)="delete(speaker)" class="btn btn-danger btn-sm" data-cy="entityDeleteButton">
+                <fa-icon icon="times"></fa-icon>
+                <span class="d-none d-md-inline">Delete</span>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

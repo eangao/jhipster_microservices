@@ -36,6 +36,8 @@
     "nativeLanguage": "en",
     "packageFolder": "com/appsdeveloper",
     "jwtSecretKey": "ZDU2ZWFkNzk3NGRkZmY3ZTM3NTIxMWI2OTcwOGRmNzMxMGMzZDk3NzllMzYzNjcxZjE2Y2Q4ZDRiNTE3NzNkNjAzN2YyZmU3YmU5YzE2YzUxYjYzNmM1MDEzM2RiZDE4NzA0OTZhNDkzZmNlMzY0MjUwNzhhNmU4NmE4OTIyZmQ=",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "entities": ["Speaker", "Session"],
+    "lastLiquibaseTimestamp": 1622788772000
   }
 }

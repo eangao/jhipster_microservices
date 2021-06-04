@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity Speaker.
+    -->
+    <changeSet id="20210603080332-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="speaker_id"
+                                 baseTableName="rel_speaker__sessions"
+                                 constraintName="fk_rel_speaker__sessions__speaker_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="speaker"/>
+
+        <addForeignKeyConstraint baseColumnNames="sessions_id"
+                                 baseTableName="rel_speaker__sessions"
+                                 constraintName="fk_rel_speaker__sessions__sessions_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="session"/>
+    </changeSet>
+</databaseChangeLog>
