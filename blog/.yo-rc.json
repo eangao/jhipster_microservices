@@ -15,7 +15,7 @@
     "dtoSuffix": "DTO",
     "testFrameworks": ["cypress", "gatling", "cucumber"],
     "pages": [],
-    "creationTimestamp": 1622792293201,
+    "creationTimestamp": 1622951855310,
     "serviceDiscoveryType": "eureka",
     "reactive": false,
     "authenticationType": "jwt",
@@ -33,7 +33,7 @@
     "enableTranslation": false,
     "nativeLanguage": "en",
     "packageFolder": "com/appsdeveloper",
-    "jwtSecretKey": "MTIxODA1Y2Q1Zjg2MThlZDk5MTZkZjE2NWQxMGI4ZjRlNDBhZTQ0ZjdkNGYwMjViNTQwYjRhNTU3YzU1MWJjN2ZjOTc3MTU5ZDM2ZWY0MDYwZTliNDhjMzExOTdjMzMyNDU4MjJiN2YxZGQ5OGI5MWQwZTUyOTQ4MWMyNTg0ODg=",
+    "jwtSecretKey": "MTM2ZjYyNDliYzFmNjFiNGIwYTA3Y2NjZDZkMmQ3NDA3Y2VjZmQwYzYyNzRlNTkzZjFjNjFhMDczMTY1ZWJjMDA3NTQzZTE1N2Y4Y2VkNzM0MDM0ZGZkNmQzY2JlNjZlMmJlMDRkOTczNTljNTMwYjU4OGRhMDY1YzJkNDA2YmY=",
     "devDatabaseType": "mongodb",
     "prodDatabaseType": "mongodb",
     "languages": ["en", "fr"]

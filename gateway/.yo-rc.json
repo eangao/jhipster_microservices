@@ -42,7 +42,7 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "languages": ["en", "fr"],
-    "entities": ["Speaker", "Session"],
-    "lastLiquibaseTimestamp": 1622707413000
+    "entities": ["Speaker", "Session", "Blog"],
+    "lastLiquibaseTimestamp": 1622793370000
   }
 }

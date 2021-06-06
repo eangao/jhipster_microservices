@@ -1,106 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f87b574b-c5f0-465e-b94c-55ed5a21e3d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdl/jhipster-jdl.jdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/.jhipster/Session.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/.jhipster/Speaker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/npm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/domain/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/domain/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/repository/SessionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/repository/SpeakerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/web/rest/SessionResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/java/com/appsdeveloper/web/rest/SpeakerResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/changelog/20210604063931_added_entity_Speaker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/changelog/20210604063931_added_entity_constraints_Speaker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/changelog/20210604063932_added_entity_Session.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/fake-data/blob/hipster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/fake-data/blob/hipster.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/fake-data/session.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/fake-data/speaker.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/main/resources/jdl/conference-jdl.jdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/gatling/user-files/simulations/SessionGatlingTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/gatling/user-files/simulations/SpeakerGatlingTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/java/com/appsdeveloper/domain/SessionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/java/com/appsdeveloper/domain/SpeakerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/java/com/appsdeveloper/web/rest/SessionResourceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../conference/src/test/java/com/appsdeveloper/web/rest/SpeakerResourceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/.jhipster/Session.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/.jhipster/Speaker.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/domain/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/domain/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/SessionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/SessionRepositoryInternalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/SpeakerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/SpeakerRepositoryInternalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/rowmapper/SessionRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/repository/rowmapper/SpeakerRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/web/rest/SessionResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/appsdeveloper/web/rest/SpeakerResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/changelog/20210603080332_added_entity_Speaker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/changelog/20210603080332_added_entity_constraints_Speaker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/changelog/20210603080333_added_entity_Session.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/fake-data/blob/hipster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/fake-data/blob/hipster.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/fake-data/session.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/fake-data/speaker.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/jdl/conference-jdl.jdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/delete/session-delete-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/delete/session-delete-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/delete/session-delete-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/detail/session-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/detail/session-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/detail/session-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/list/session.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/list/session.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/list/session.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/route/session-routing-resolve.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/route/session-routing-resolve.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/route/session-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/service/session.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/service/session.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/session.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/session.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/update/session-update.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/update/session-update.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/session/update/session-update.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/delete/speaker-delete-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/delete/speaker-delete-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/delete/speaker-delete-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/detail/speaker-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/detail/speaker-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/detail/speaker-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/list/speaker.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/list/speaker.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/list/speaker.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/route/speaker-routing-resolve.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/route/speaker-routing-resolve.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/route/speaker-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/service/speaker.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/service/speaker.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/speaker.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/speaker.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/update/speaker-update.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/update/speaker-update.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/speaker/update/speaker-update.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/gatling/user-files/simulations/SessionGatlingTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/gatling/user-files/simulations/SpeakerGatlingTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/java/com/appsdeveloper/domain/SessionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/java/com/appsdeveloper/domain/SpeakerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/java/com/appsdeveloper/web/rest/SessionResourceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/java/com/appsdeveloper/web/rest/SpeakerResourceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/javascript/cypress/integration/entity/session.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/test/javascript/cypress/integration/entity/speaker.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../conference/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../conference/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../conference/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../conference/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+    <list default="true" id="f9f67fc4-ea4e-4a7c-aff4-09561c2b7857" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../gateway/.jhipster/Blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/jdl/blog.jdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/blog.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/blog.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/delete/blog-delete-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/delete/blog-delete-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/delete/blog-delete-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/detail/blog-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/detail/blog-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/detail/blog-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/list/blog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/list/blog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/list/blog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/route/blog-routing-resolve.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/route/blog-routing-resolve.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/route/blog-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/service/blog.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/service/blog.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/update/blog-update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/update/blog-update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/blog/blog/update/blog-update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/test/javascript/cypress/integration/entity/blog.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.yo-rc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/central-server-config/docker-config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/docker/central-server-config/docker-config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/central-server-config/localhost-config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/docker/central-server-config/localhost-config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/jhipster-control-center.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/docker/jhipster-control-center.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/tls/keystore.p12" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/tls/keystore.p12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdl/jhipster-jdl.jdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/config/liquibase/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/jdl/jhipster-jdl.jdl" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/jdl/jhipster-jdl.jdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/jdl/jhipster-jdl.jdl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/entity-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/entities/entity-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
     </list>
@@ -112,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1tTTpgVhemUdXtyCxSFMVm1YUWY" />
+  <component name="ProjectId" id="1tYgeDIpRuiTem4L5ph6V1QNYZb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -129,12 +65,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f87b574b-c5f0-465e-b94c-55ed5a21e3d1" name="Default Changelist" comment="" />
-      <created>1622792264436</created>
+      <changelist id="f9f67fc4-ea4e-4a7c-aff4-09561c2b7857" name="Default Changelist" comment="" />
+      <created>1622951529563</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622792264436</updated>
-      <workItem from="1622792265853" duration="696000" />
+      <updated>1622951529563</updated>
+      <workItem from="1622951530835" duration="488000" />
     </task>
     <servers />
   </component>
